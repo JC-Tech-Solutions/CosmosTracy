@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8d0d2"/>
+      <stop offset=".56" stop-color="#e7e2d2"/>
+      <stop offset="1" stop-color="#f0d7ad"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#81999a"/>
+      <stop offset=".52" stop-color="#526e70"/>
+      <stop offset="1" stop-color="#344f54"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#77999a"/>
+      <stop offset=".5" stop-color="#547879"/>
+      <stop offset="1" stop-color="#365b5c"/>
+    </linearGradient>
+    <linearGradient id="pine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#243d38"/>
+      <stop offset="1" stop-color="#41604f"/>
+    </linearGradient>
+    <radialGradient id="sun-glow">
+      <stop offset="0" stop-color="#ffe8b7" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#ffe8b7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <circle cx="1190" cy="300" r="280" fill="url(#sun-glow)"/>
+  <circle cx="1190" cy="300" r="76" fill="#ffedc9" fill-opacity=".88"/>
+  <path fill="#a5babb" d="m0 577 187-175 113 107 225-270 106 143 206-247 224 283 126-148 150 170 126-100 137 123v337H0Z"/>
+  <path fill="#e1e5dc" fill-opacity=".88" d="m410 509 115-270 95 202-68-48-44 32-35-22Zm228-174 199-200 191 243-111-101-53 45-73-60-60 34Zm450 106 93-114 120 137-75-64-43 29-36-25Z"/>
+  <path fill="url(#mountain)" d="m0 610 186-205 117 141 224-306 159 231 170-259 242 321 135-156 164 178 110-92 93 91v279H0Z"/>
+  <path fill="#314b4d" fill-opacity=".84" d="m0 645 186-240 60 72 57 69 224-305 82 119 77 112 170-259 122 162 120 159 135-156 78 85 86 93 110-92 93 91v240H0Z"/>
+  <path fill="url(#lake)" d="M0 632c214 10 338-13 525-2 221 14 353-14 561-2 208 13 349-8 514 6v366H0Z"/>
+  <path fill="#ead4a9" fill-opacity=".5" d="M1110 638c58-8 114-8 170 1l91 361h-382Z"/>
+  <g fill="none" stroke="#d5dfd5" stroke-linecap="round">
+    <path stroke-opacity=".52" stroke-width="5" d="M1020 697h236m-185 35h245m-312 39h390m-278 43h331m-412 46h519"/>
+    <path stroke-opacity=".32" stroke-width="3" d="M40 726h370m-332 49h409m-486 55h524m429-171h173m-492 246h468m-671 54h757"/>
+  </g>
+  <path fill="#405b49" d="M0 615c84-25 141-16 220 5 96 26 164 17 258 4 90-12 162-2 245 12 109 19 215 2 318-9 112-12 189-8 285 9 103 18 182 12 274-11v375H0Z" fill-opacity=".62"/>
+  <g fill="url(#pine)">
+    <path d="m65 674 46-122 45 122h-26l38 69H53l38-69Zm132 13 60-160 58 160h-33l48 82H181l49-82Zm1016-1 53-141 54 141h-31l43 75h-131l43-75Zm134 17 71-188 70 188h-40l54 92h-169l54-92Zm155-12 56-149 56 149h-32l44 78h-136l44-78Z"/>
+  </g>
+  <g fill="#253e38">
+    <path d="M107 558h8v207h-8zm140-41h9v251h-9zm890 46h8v202h-8zm185-20h9v228h-9zm155 17h8v211h-8z"/>
+  </g>
+</svg>
